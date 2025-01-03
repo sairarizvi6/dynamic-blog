@@ -1,5 +1,6 @@
 import Navbar from '@//components/Navbar';
 import Footer from '@//components/Footer';
+import Image from 'next/image';
 
 export default function AboutPage() {
   return (
@@ -24,7 +25,7 @@ export default function AboutPage() {
 
           <section className="flex flex-col md:flex-row gap-12 items-center mb-16">
             <div className="md:w-1/2">
-              <img
+              <Image
                 src="/about-us.jpg"
                 alt="About Us"
                 className="w-full h-96 object-cover rounded-lg shadow-xl transform shadow-slate-400 transition-all duration-300"
