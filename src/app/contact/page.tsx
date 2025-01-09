@@ -2,6 +2,7 @@ import Navbar from '@//components/Navbar';
 import Footer from '@//components/Footer';
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
+
 export default function ContactPage() {
   return (
     <div className="flex flex-col min-h-screen"> 
@@ -12,7 +13,7 @@ export default function ContactPage() {
         <div
           className="relative bg-cover bg-center bg-no-repeat min-h-screen"
           style={{
-            backgroundImage: "url('/background-image.jpg')",
+            backgroundImage: "url('/background-image.jpg')"
           }}
         >
           <div className="absolute inset-0 bg-black opacity-60"></div>
@@ -22,8 +23,7 @@ export default function ContactPage() {
             {/* Contact Header */}
             <h1 className="text-5xl font-bold mb-6">Get In Touch</h1>
             <p className="text-xl mb-10 max-w-3xl mx-auto">
-              
-We value your input and are here to assist! Whether you have questions, feedback, or insights to share, don’t hesitate to get in touch with us.
+              We value your input and are here to assist.Whether you have questions, feedback, or insights to share, do not hesitate to get in touch with us.
             </p>
 
             <div className="flex justify-center space-x-8 mb-12">
