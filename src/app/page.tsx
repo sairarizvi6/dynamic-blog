@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
+import Navbar from '@//components/Navbar';
+import Footer from '@//components/Footer';
 
 export default function HomePage() {
   const posts = [
@@ -8,37 +8,37 @@ export default function HomePage() {
       slug: 'women-in-tech',
       title: 'Women in AI-Tech-World',
       description: 'Inspiring stories of women in the tech world.',
-      image: '/women-in-tech.jpg',
+      image: '/women-in-tech.jpg'
     },
     {
       slug: 'diversity-in-tech',
       title: 'Diversity in Tech-AI',
       description: 'Exploring the impact of diversity in tech industry.',
-      image: '/diversity-in-tech.jpg',
+      image: '/diversity-in-tech.jpg'
     },
     {
       slug: 'women-in-ai',
       title: 'Women in AI-Field',
       description: 'How women are leading advancements in AI.',
-      image: '/women-in-ai.jpg',
+      image: '/women-in-ai.jpg'
     },
     {
       slug: 'tech-for-good',
       title: 'AI-Tech for Good',
       description: 'Using technology for humanitarian causes.',
-      image: '/tech-for-good.jpg',
+      image: '/tech-for-good.jpg'
     },
     {
       slug: 'female-founders-in-tech',
       title: 'Female Founders in Tech-AI',
       description: 'Women founders driving innovation.',
-      image: '/female-founders.jpg',
+      image: '/female-founders.jpg'
     },
     {
       slug: 'tech-trends-2024',
       title: 'AI-Tech Trends 2024',
       description: 'Emerging technologies shaping the future.',
-      image: '/tech-trends-2024.jpg',
+      image: '/tech-trends-2024.jpg'
     },
   ];
 
@@ -54,7 +54,7 @@ export default function HomePage() {
       >
         <div className="bg-black bg-opacity-60 text-pink-50 py-12 px-6 text-center">
           <h1 className="text-4xl font-extrabold mb-6">
-            Welcome to Saira's Rizvi AI-Blog
+            Welcome to Saira Rizvi AI-Blog
           </h1>
           <p className="text-base font-sans mb-6 leading-relaxed max-w-2xl mx-auto">
           Embark on an inspiring journey through the world of AI technology, 
@@ -77,7 +77,7 @@ export default function HomePage() {
           backgroundImage: "url('/background-image.jpg')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
+          backgroundRepeat: 'no-repeat'
         }}
       >
         <div className="text-center mb-12">
