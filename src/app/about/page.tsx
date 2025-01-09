@@ -1,6 +1,7 @@
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import Image from 'next/image';
+import Navbar from '@//components/Navbar';
+import Footer from '@//components/Footer';
+
+
 
 export default function AboutPage() {
   return (
@@ -10,17 +11,17 @@ export default function AboutPage() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat h-full w-full"
           style={{
-            backgroundImage: "url('/background-image.jpg')",
+            backgroundImage: "url('/background-image.jpg')"
           }}
         />
         <div className="relative z-10 max-w-6xl mx-auto p-8">
           {/* About Section */}
           <section className="text-center mb-12">
             <h1 className="text-5xl font-bold text-blue-700 mb-6">
-              About Saira's Rizvi Blog
+              About Saira Rizvi Blog
             </h1>
             <p className="text-xl text-white leading-relaxed mx-auto max-w-3xl">
-              Welcome to Saira's Rizvi AI Blog – A hub for insightful
+              Welcome to Saira Rizvi AI Blog. A hub for insightful
               stories, groundbreaking AI innovations, and inspiring
               narratives of women shaping the future of technology. Our
               mission is to educate, empower, and celebrate the pivotal
@@ -31,7 +32,7 @@ export default function AboutPage() {
 
           <section className="flex flex-col md:flex-row gap-12 items-center mb-16">
             <div className="md:w-1/2">
-              <Image
+              <img
                 src="/about-us.jpg"
                 alt="About Us"
                 width={400}
@@ -44,9 +45,9 @@ export default function AboutPage() {
                 Our Mission
               </h2>
               <p className="text-lg text-white mb-6">
-                At Saira's Rizvi AI Blog, Our goal is to bridge the gap
+                At Saira Rizvi AI Blog & Our goal is to bridge the gap
                 between innovation and inspiration. From AI breakthroughs to
-                the empowering role of women in technology, we showcase
+                the empowering role of women in technology. we showcase
                 stories that matter, spark curiosity, and ignite a passion
                 for shaping the future of AI.
               </p>
@@ -56,7 +57,7 @@ export default function AboutPage() {
               <p className="text-lg text-white">
                 This blog focuses on highlighting the essential contributions
                 of women in shaping the future of AI. By showcasing
-                underrepresented voices and groundbreaking advancements, we
+                underrepresented voices and groundbreaking advancements. we
                 aim to inspire and empower readers to engage with the
                 evolving AI landscape. Our goal is to demonstrate the
                 transformative impact of diversity in driving innovation and
@@ -67,11 +68,11 @@ export default function AboutPage() {
 
           <section className="py-16">
             <h2 className="text-5xl font-extrabold text-red-50 text-center mb-6">
-              Become a Part of the Journey with Saira's Rizvi AI Blog
+              Become a Part of the Journey with Saira Rizvi AI Blog
             </h2>
             <p className="text-lg text-white text-center mb-8 mx-auto max-w-2xl">
               We are honored to have you join us on this journey of
-              discovery and innovation, with a special emphasis on the
+              discovery and innovation with a special emphasis on the
               transformative role of women in shaping the future of AI. Stay
               curious, keep exploring, and partner with us as we delve into
               the profound impact of women driving progress in technology. Your
